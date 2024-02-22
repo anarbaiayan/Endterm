@@ -15,12 +15,9 @@ public class Manga {
         return title;
     }
 
-    // Other getters and setters
-
     @Override
     public String toString() {
-        return "Manga: " +
-                "title: " + title +
+        return "Manga title: " + title +
                 ", author: " + author +
                 ", price: $" + price;
     }

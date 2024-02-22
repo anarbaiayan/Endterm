@@ -35,6 +35,7 @@ public class Customer extends User {
         } else {
             System.out.println("Buying: ");
             results.forEach(System.out::println);
+            catalog.removeIf(manga -> manga.getTitle().equalsIgnoreCase(title));
         }
     }
 
